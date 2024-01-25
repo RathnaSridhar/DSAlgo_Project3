@@ -8,3 +8,5 @@ When User clicks on the Data Intorduction get started button then the customer i
 Then User click the Array get started button use can see the Array page
 Then User clicks on the Linked list get started buttom and user can see the Linked list page
 And User Clicks on the Queue get started button and user can view the Queue page
+And User Clicks on the Trees get started button and user can view the Trees page
+And User clicks on the Graph link get started button and user can view the graph page

@@ -55,4 +55,16 @@ public class DS_GetSarted_Steps {
 		DS_GetStartedPage Get_Started = new DS_GetStartedPage(driver);
 		Get_Started.Click_Queue_Get_Started();
 	}
+	
+	@And("User Clicks on the Trees get started button and user can view the Trees page")
+	public void user_clicks_on_the_Trees_get_started_button_and_user_can_view_the_queue_page() {
+		DS_GetStartedPage Get_Started = new DS_GetStartedPage(driver);
+		Get_Started.Click_TreesLink_Get_Started();
+	}
+	
+	@And("User clicks on the Graph link get started button and user can view the graph page")
+	public void user_clicks_on_the_graph_link_get_started_button_and_user_can_view_the_graph_page() {
+		DS_GetStartedPage Get_Started = new DS_GetStartedPage(driver);
+		Get_Started.Click_Graph_Link();
+	}
 }
